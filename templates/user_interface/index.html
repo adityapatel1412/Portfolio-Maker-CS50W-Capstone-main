@@ -1,0 +1,168 @@
+<!DOCTYPE html>{% load static %}
+<html lang="en" class="no-js">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Portfolio Maker</title>
+    <link href="https://fonts.googleapis.com/css?family=Heebo:400,700|IBM+Plex+Sans:600" rel="stylesheet">
+    <link rel="stylesheet" href="{% static 'dist/css/style.css' %}">
+    <script src="https://unpkg.com/scrollreveal@4.0.0/dist/scrollreveal.min.js"></script>
+</head>
+<body class="is-boxed has-animations">
+    <div class="body-wrap boxed-container">
+        <header class="site-header">
+            <div class="container">
+                <div class="site-header-inner">
+                    <div class="brand header-brand">
+                        <h1 class="m-0">
+                            <a href="#">
+								<img class="header-logo-image asset-light" src="{% static 'dist/images/logo-light.svg' %}" alt="Logo">
+								<img class="header-logo-image asset-dark" src="{% static 'dist/images/logo-dark.svg' %}" alt="Logo">
+                            </a>
+                        </h1>
+                    </div>
+                </div>
+            </div>
+        </header>
+
+        <main>
+            <section class="hero">
+                <div class="container">
+                    <div class="hero-inner">
+						<div class="hero-copy">
+	                        <h1 class="hero-title mt-0">Make your personal portfolio</h1>
+	                        <p class="hero-paragraph">Either you’re a student or a professional; looking to get ahead, you need a website. It’s your chance to establish an online presence, impress recruiters, and provide something that will set you apart from the stacks of static resumes that everyone has.</p>
+	                        <div class="hero-cta">
+								<a class="button button-primary" href="{% url 'register' %}">Get Started now</a>
+								<div class="lights-toggle">
+									<input id="lights-toggle" type="checkbox" name="lights-toggle" class="switch" checked="checked">
+									<label for="lights-toggle" class="text-xs"><span>Turn me <span class="label-text">dark</span></span></label>
+								</div>
+							</div>
+						</div>
+						<div class="hero-media">
+							<div class="header-illustration">
+								<img class="header-illustration-image asset-light" src="{% static 'dist/images/header-illustration-light.svg' %}" alt="Header illustration">
+								<img class="header-illustration-image asset-dark" src="{% static 'dist/images/header-illustration-dark.svg' %}" alt="Header illustration">
+							</div>
+							<div class="hero-media-illustration">
+								<img class="hero-media-illustration-image asset-light" src="{% static 'dist/images/hero-media-illustration-light.svg' %}" alt="Hero media illustration">
+								<img class="hero-media-illustration-image asset-dark" src="{% static 'dist/images/hero-media-illustration-dark.svg' %}" alt="Hero media illustration">
+							</div>
+							<div class="hero-media-container">
+								<img class="hero-media-image asset-light" width="550" height="450" src="{% static 'dist/images/light_portfolio.png' %}" alt="Hero media">
+								<img class="hero-media-image asset-dark" width="550" height="450" src="{% static 'dist/images/dark_portfolio.png' %}" alt="Hero media">
+							</div>
+						</div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="features section">
+                <div class="container">
+					<div class="features-inner section-inner has-bottom-divider">
+						<div class="features-header text-center">
+							<div class="container-sm">
+								<h2 class="section-title mt-0">The Portfolio Maker</h2>
+	                            <p class="section-paragraph">Want to have complete control of your freelance business, you should invest in creating and maintaining your own portfolio/business website. Your website should become a valuable business tool that you use to attract client and help the good ones contact you.</p>
+								<div class="features-image">
+									<img class="features-illustration asset-dark" src="{% static 'dist/images/features-illustration-dark.svg' %}" alt="Feature illustration">
+									<img class="features-box asset-dark" src="{% static 'dist/images/features-box-dark.svg' %}" alt="Feature box">
+									<img class="features-illustration asset-dark" width="728" height="458" src="{% static 'dist/images/PORTFOLIO SITE.png' %}" alt="Feature illustration top">
+									<img class="features-illustration asset-light" src="{% static 'dist/images/features-illustration-light.svg' %}" alt="Feature illustration">
+									<img class="features-box asset-light" src="{% static 'dist/images/features-box-light.svg' %}" alt="Feature box">
+									<img class="features-illustration asset-light" width="750" height="450" src="{% static 'dist/images/PORTFOLIO SITE swap.png' %}" alt="Feature illustration top">
+								</div>
+							</div>
+                        </div>
+                        <div class="features-wrap">
+                            <div class="feature is-revealing">
+                                <div class="feature-inner">
+                                    <div class="feature-icon">
+										<img class="asset-light" src="{% static 'dist/images/feature-01-light.svg' %}" alt="Feature 01">
+										<img class="asset-dark" src="{% static 'dist/images/feature-01-dark.svg' %}" alt="Feature 01">
+                                    </div>
+									<div class="feature-content">
+                                    	<h3 class="feature-title mt-0"> 1. Sign up</h3>
+                                    	<p class="text-sm mb-0">The first step to get started with your personal portfolio site is to create your account on "The Portfolio Maker". </p>
+									</div>
+								</div>
+                            </div>
+							<div class="feature is-revealing">
+                                <div class="feature-inner">
+                                    <div class="feature-icon">
+										<img class="asset-light" src="{% static 'dist/images/feature-02-light.svg' %}" alt="Feature 02">
+										<img class="asset-dark" src="{% static 'dist/images/feature-02-dark.svg' %}" alt="Feature 02">
+                                    </div>
+									<div class="feature-content">
+                                    	<h3 class="feature-title mt-0"> 2. Enter Details</h3>
+                                    	<p class="text-sm mb-0">Second, you need to enter the details that you want others to know about you. Some details about educations, experiences, your projects and skillsets will do to get you started.</p>
+									</div>
+								</div>
+                            </div>
+							<div class="feature is-revealing">
+                                <div class="feature-inner">
+                                    <div class="feature-icon">
+										<img class="asset-light" src="{% static 'dist/images/feature-03-light.svg' %}" alt="Feature 03">
+										<img class="asset-dark" src="{% static 'dist/images/feature-03-dark.svg' %}" alt="Feature 03">
+                                    </div>
+									<div class="feature-content">
+                                    	<h3 class="feature-title mt-0"> 3. Complete your portfolio</h3>
+                                    	<p class="text-sm mb-0">Its complete! You can see your portfolio and update anytime you need to. Hurray! Get a shareable link and show off to everyone. CONGRATS!!</p>
+									</div>
+								</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+			<section class="cta section">
+                <div class="container-sm">
+                    <div class="cta-inner section-inner">
+                        <div class="cta-header text-center">
+                            <h2 class="section-title mt-0">Get your personal porfolio site and stand out!</h2>
+                            <p class="section-paragraph">Workfolio’s founder and chief executive Charles Pooley says: “The employment market is an incredibly scary place to be right now as a job seeker—but a personal website offers several important things to improve your odds.”</p>
+							<div class="cta-cta">
+								<a class="button button-primary" href="{% url 'register' %}">Get Started Now</a>
+							</div>
+					    </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+
+        <footer class="site-footer has-top-divider">
+            <div class="container">
+                <div class="site-footer-inner">
+                    <div class="brand footer-brand">
+                        <a href="#">
+							<img class="asset-light" src="{% static 'dist/images/logo-light.svg' %}" alt="Logo">
+							<img class="asset-dark" src="{% static 'dist/images/logo-dark.svg' %}" alt="Logo">
+                        </a>
+                    </div>
+                    <!-- <ul class="footer-links list-reset">
+                        <li>
+                            <a href="#">Contact</a>
+                        </li>
+                        <li>
+                            <a href="#">About us</a>
+                        </li>
+                        <li>
+                            <a href="#">FAQ's</a>
+                        </li>
+                        <li>
+                            <a href="#">Support</a>
+                        </li>
+                    </ul> -->
+                    
+                   
+                </div>
+            </div>
+        </footer>
+    </div>
+
+    <script src="{% static 'dist/js/main.min.js' %}"></script>
+</body>
+</html>
