@@ -16,13 +16,12 @@ A personal website can let you make your pitch in front of people you might neve
 
 “The Portfolio Maker” aims to ease the process. It provides a simple interface where interested ones can sign up, enter their information and we get their shareable website right away.
 
-![](theportfoliomaker.gif)
 
 &nbsp;
 
-:computer: &nbsp; **View project live [here](https://theportfoliomaker.herokuapp.com)**
 
-:arrow_forward: &nbsp; **View Video Presenation [here](https://youtu.be/N2Q66QBJ5aM)**
+
+:arrow_forward: &nbsp; **View Video Presenation [here](https://youtu.be/5TA3IJR6dN0)**
 
 &nbsp;
 
@@ -106,18 +105,3 @@ Please see the appropriate guide for your environment of choice.
 - `python manage.py runserver`
 
 
-&nbsp;
-### Contribute
-
-Contributions are always welcome! Please create a PR to contribute.
-
-### :pencil: &nbsp; License
-
-This project is licensed under [MIT](https://opensource.org/licenses/MIT) license.
-
-![GitHub](https://img.shields.io/github/license/Lucifer-22/Portfolio-Maker-CS50W-Capstone?style=for-the-badge)
-
-
-### :man_astronaut: &nbsp; Show your support
-
-Give a ⭐️ if this project helped you!
